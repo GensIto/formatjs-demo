@@ -1,0 +1,5 @@
+{
+  "myMessage": {
+    "defaultMessage": "Today is {ts, date, ::yyyyMMdd}"
+  }
+}
