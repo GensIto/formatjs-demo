@@ -11,11 +11,12 @@ const messages: Record<string, Record<string, string>> = {
 const HelloComponent = () => {
   const intl = useIntl();
   const name = "Taro";
+  const html = <br />;
 
   return (
     <>
-      <FormattedMessage id='HELLO' values={{ name }} />
-      <div>{intl.formatMessage({ id: "HELLO" }, { name })}</div>
+      <FormattedMessage id='HELLO' values={{ name, html }} />
+      <div>{intl.formatMessage({ id: "HELLO" }, { name, html })}</div>
     </>
   );
 };

@@ -1,3 +1,3 @@
 export const ja = {
-  HELLO: "こんにちは、{name}さん！",
+  HELLO: "こんにちは {html} {name}さん！",
 };
